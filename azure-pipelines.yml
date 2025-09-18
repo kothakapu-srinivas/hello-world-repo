@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: httpd
+  name: httpd
 
 steps:
 - script: echo Hello, world!

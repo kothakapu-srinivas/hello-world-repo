@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: httpd
+  name: gcp
 
 steps:
 - script: echo Hello, world!
